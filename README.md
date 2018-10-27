@@ -1,2 +1,3 @@
 # Bootstrap-Portfolio
-Homework assignment 2 - Bootstrap
+
+Homework assignment 2 - Bootstrap version
