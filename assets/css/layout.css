@@ -44,7 +44,7 @@ a:hover {
 /*END ELEMENTS CSS*/
 /*BEGIN CLASS CSS*/
 .brandpic {
-  margin-top: 16%;
+  margin-top: 14%;
 }
 .container {
   width: 100%;
@@ -53,7 +53,18 @@ a:hover {
   padding: 16px 1px;
 }
 .icons {
-  margin: 0% 0% 0% 6%;
+  margin: 0% 0% 0% 2%;
+}
+.icon-btn {
+  transform: scale(1);
+  transition: 0.3s;
+  box-shadow: 6px 6px 10px #b3b1b1;
+  border-radius: 50px;
+  margin-left: 5px;
+}
+.icon-btn:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
 }
 .portfolio_name {
   background-color: #4aaaa5;
@@ -75,6 +86,27 @@ a:hover {
   align-items: stretch;
   text-align: center;
 }
+.thumbnail {
+  animation-delay: 1s;
+}
+.thumbnail1 {
+  animation-delay: 1.2s;
+}
+.thumbnail2 {
+  animation-delay: 1.4s;
+}
+.thumbnail3 {
+  animation-delay: 1.6s;
+}
+.thumbnail4 {
+  animation-delay: 1.8s;
+}
+.thumbnail5 {
+  animation-delay: 2s;
+}
+.thumbnail6 {
+  animation-delay: 2.2s;
+}
 .main-bio,
 .contact-info,
 .bio-image {
@@ -83,7 +115,7 @@ a:hover {
   border-radius: 30px;
 }
 .main-bio {
-  margin-top: 20px;
+  margin: 10% 1%;
   border: 2px solid #dddddd;
   background-color: #ffffff;
   opacity: 0.8;
@@ -91,7 +123,7 @@ a:hover {
 }
 .contact-info {
   text-align: left;
-  margin-top: 20px;
+  margin-top: 10%;
   margin-left: 10px;
   border: 2px solid #dddddd;
   background-color: #ffffff;
@@ -103,6 +135,7 @@ a:hover {
   margin-right: 20px;
   width: 200px;
   height: 200px;
+  animation-delay: 0.2s;
 }
 .btn-primary {
   background-color: #4aaaa5;
@@ -129,14 +162,20 @@ a:hover {
 /*END CLASS CSS*/
 /*Media Queries*/
 /* Desktop size from 980px */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 823px) {
   .main-bio {
-    margin-bottom: 30%;
+    margin: 14% 1% 12% 1%;
+  }
+  .contact-info {
+    margin: 14% 1% 2% 1%;
   }
 }
 
 @media only screen and (max-width: 736px) {
   .contact-info {
     margin-bottom: 30%;
+  }
+  .main-bio {
+    margin: 24% 1% 2% 1%;
   }
 }
