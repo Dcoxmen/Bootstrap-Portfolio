@@ -1,127 +1,192 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico" />
 
     <title>Dave Cox Contact Me</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+    <link
+      href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
+    />
     <!-- Custom styles for this template -->
-    <link href="assets/css/layout.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#"><img class="brandpic" src="./assets/images/DavLogonav.png" alt="Dave Cox Portfolio"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand" href="#"
+        ><img
+          class="brandpic"
+          src="./assets/images/DavLogonav.png"
+          alt="Dave Cox Portfolio"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html"
+              >Portfolio<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!--BEGIN MAIN CONTAINER 960PX WIDE -->
     <div class="container">
-        <!--BEGIN MAIN BIO CONTACT CONTENT  -->
-        <div class="animated fadeInLeft main-bio col-sm-12 col-md-6 col-lg-7 col-xl-8">
-            <h2>Contact Me</h2>
-            <hr>
-            <form>
-                <div class="form-row">
-                    <div class="form-group col-md-12">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                    </div>
-                    <div class="form-group col-md-5">
-                        <input type="text" class="form-control" id="inputFirstName" placeholder="Enter First Name">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="inputLastName" placeholder="Enter Last Name">
-                    </div>
-                    <div class="form-group col-md-12">
-                        <label for="exampleFormControlTextarea2">What's on your mind?</label>
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
-                    </div>
+      <!--BEGIN MAIN BIO CONTACT CONTENT  -->
+      <div class="animated fadeInLeft main-bio col-sm-12 col-md-6 col-lg-7 col-xl-8">
+        <h2>Contact Me</h2>
+        <hr />
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <input
+                name="name"
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+              />
+            </div>  
+              <div class="form-group col-sm-6">
+                <input
+                  name="company"
+                  type="text"
+                  id="company"
+                  placeholder="Enter Company"
+                />
+              </div>
+              <div class="form-group col-sm-6">
+                <input
+                  name="email"
+                  type="email"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group col-sm-6">
+                <input
+                  name="phone"
+                  type="text"
+                  id="phone"
+                  placeholder="Enter phone"
+                />
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="message">What's on your mind?</label>
+                <textarea name="message" id="message" rows="3"></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary col-sm-12">
+              Send Email
+            </button>             
+            </div>
 
-                </div>
+        </form>
+      
+      <!--END MAIN BIO CONTACT CONTENT -->
+      <!--BEGIN MY CONEXIONES SIDE BAR LINKS  -->
+      <div
+        class="animated fadeInUp contact-info col-sm-12 col-md-5 col-lg-4 col-xl-3"
+      >
+        <div class="info">
+          <h2>My Conexiones</h2>
+          <div class="icons">
+            <a href="https://github.com/Dcoxmen" target="_blank"
+              ><img
+                class="icon-btn"
+                src="assets/images/github2.jpg.png"
+                width="71px"
+                height="71px"
+            /></a>
 
-                <button type="submit" class="btn btn-primary col-md-4">Send Email</button>
-            </form>
+            <a
+              href="https://www.linkedin.com/in/david-cox-78b88b44/"
+              target="_blank"
+              ><img
+                class="icon-btn"
+                src="assets/images/linkdin2.png"
+                width="70px"
+                height="70px"
+            /></a>
+
+            <a
+              href="https://stackoverflow.com/users/10243984/codecox"
+              target="_blank"
+              ><img
+                class="icon-btn"
+                src="assets/images/stackoverflow2.png"
+                width="70px"
+                height="70px"
+            /></a>
+          </div>
         </div>
-        <!--END MAIN BIO CONTACT CONTENT -->
-        <!--BEGIN MY CONEXIONES SIDE BAR LINKS  -->
-        <div class="animated fadeInUp contact-info col-sm-12 col-md-5 col-lg-4 col-xl-3">
-            <div class="info">
-                <h2>My Conexiones</h2>
-                <div class="icons">
-                    <a href="https://github.com/Dcoxmen" target="_blank"><img class="icon-btn" src="assets/images/github2.jpg.png"
-                            width="71px" height="71px"></a>
-                    <a href="https://www.linkedin.com/in/david-cox-78b88b44/" target="_blank"><img class="icon-btn" src="assets/images/linkdin2.png"
-                            width="70px" height="70px"></a>
-                    <a href="https://stackoverflow.com/users/10243984/codecox" target="_blank"><img class="icon-btn"
-                            src="assets/images/stackoverflow2.png" width="70px" height="70px"></a>
-                </div>
+        <div class="card">
+          <div class="info">
+            <div class="card-body">
+              <div class="row">
+                <h5 class="col-lg-12">Orange County</h5>
+                <div class="col-lg-12"><a href="#">(949) 783-8562</a></div>
+                <div class="col-lg-12">davedvst@gmail.com</div>
+              </div>
             </div>
-            <div class="card">
-                <div class="info">
-                    <div class="card-body">
-                        <div class="row">
-                            <h5 class="col-lg-12">Orange County</h5>
-                            <div class="col-lg-12"><a href="#">(714)444-4444</a></div>
-                            <div class="col-lg-12">davedvst@gmail.com</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="info">
-                    <div class="card-body">
-                        <div class="row">
-                            <h5 class="col-lg-12">Los Angeles</h5>
-                            <div class="col-lg-12"><a href="#">(213) 444-4444</a></div>
-                            <div class="col-lg-12">davedvst@gmail.com</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!--END MY CONEXIONES SIDE BAR -->
+      </div>
+      <!--END MY CONEXIONES SIDE BAR -->
     </div>
     <p></p>
     <!--END MAIN CONTAINER 960PX WIDE -->
     <!-- FOOTER -->
-    <div class="footer">
-        © - Copyright 2018 DCox
-    </div>
+    <div class="footer">© - Copyright 2018 DCox</div>
     <!-- END FOOTER -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+        );
+    </script>
     <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
-</body>
-
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+    <script src="./assets/js/contact.js"></script>
+  </body>
 </html>
