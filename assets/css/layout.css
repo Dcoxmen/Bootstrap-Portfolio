@@ -40,7 +40,15 @@ a:visited,
 a:hover {
   color: #4aaaa5;
 }
-
+#name,
+#company,
+#email,
+#phone {
+  width: 100%;
+}
+#message {
+  width: 680px;
+}
 /*END ELEMENTS CSS*/
 /*BEGIN CLASS CSS*/
 .brandpic {
@@ -75,6 +83,7 @@ a:hover {
   padding: 4px 5px;
   text-align: center;
 }
+
 /* ----------------------------------------------- */
 /* apps buttons showcase grid*/
 /* ----------------------------------------------- */
