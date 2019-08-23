@@ -1,5 +1,7 @@
 # Bootstrap-Portfolio
-
+---
+permalink: /index.html
+---
 Homework assignment 2 - Bootstrap version
 
 Instructions
